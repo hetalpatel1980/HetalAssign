@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98C304271B5DBAB000B4D5ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C304261B5DBAB000B4D5ED /* AppDelegate.swift */; };
+		98C304291B5DBAB000B4D5ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C304281B5DBAB000B4D5ED /* ViewController.swift */; };
+		98C3042C1B5DBAB000B4D5ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98C3042A1B5DBAB000B4D5ED /* Main.storyboard */; };
+		98C3042E1B5DBAB000B4D5ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98C3042D1B5DBAB000B4D5ED /* Images.xcassets */; };
+		98C304311B5DBAB000B4D5ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98C3042F1B5DBAB000B4D5ED /* LaunchScreen.xib */; };
+		98C3043D1B5DBAB000B4D5ED /* HetalAssignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C3043C1B5DBAB000B4D5ED /* HetalAssignTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98C304371B5DBAB000B4D5ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98C304191B5DBAB000B4D5ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98C304201B5DBAB000B4D5ED;
+			remoteInfo = HetalAssign;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		98C304211B5DBAB000B4D5ED /* HetalAssign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HetalAssign.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98C304251B5DBAB000B4D5ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98C304261B5DBAB000B4D5ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		98C304281B5DBAB000B4D5ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		98C3042B1B5DBAB000B4D5ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98C3042D1B5DBAB000B4D5ED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		98C304301B5DBAB000B4D5ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		98C304361B5DBAB000B4D5ED /* HetalAssignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HetalAssignTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98C3043B1B5DBAB000B4D5ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98C3043C1B5DBAB000B4D5ED /* HetalAssignTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HetalAssignTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98C3041E1B5DBAB000B4D5ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98C304331B5DBAB000B4D5ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98C304181B5DBAB000B4D5ED = {
+			isa = PBXGroup;
+			children = (
+				98C304231B5DBAB000B4D5ED /* HetalAssign */,
+				98C304391B5DBAB000B4D5ED /* HetalAssignTests */,
+				98C304221B5DBAB000B4D5ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98C304221B5DBAB000B4D5ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98C304211B5DBAB000B4D5ED /* HetalAssign.app */,
+				98C304361B5DBAB000B4D5ED /* HetalAssignTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98C304231B5DBAB000B4D5ED /* HetalAssign */ = {
+			isa = PBXGroup;
+			children = (
+				98C304261B5DBAB000B4D5ED /* AppDelegate.swift */,
+				98C304281B5DBAB000B4D5ED /* ViewController.swift */,
+				98C3042A1B5DBAB000B4D5ED /* Main.storyboard */,
+				98C3042D1B5DBAB000B4D5ED /* Images.xcassets */,
+				98C3042F1B5DBAB000B4D5ED /* LaunchScreen.xib */,
+				98C304241B5DBAB000B4D5ED /* Supporting Files */,
+			);
+			path = HetalAssign;
+			sourceTree = "<group>";
+		};
+		98C304241B5DBAB000B4D5ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98C304251B5DBAB000B4D5ED /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98C304391B5DBAB000B4D5ED /* HetalAssignTests */ = {
+			isa = PBXGroup;
+			children = (
+				98C3043C1B5DBAB000B4D5ED /* HetalAssignTests.swift */,
+				98C3043A1B5DBAB000B4D5ED /* Supporting Files */,
+			);
+			path = HetalAssignTests;
+			sourceTree = "<group>";
+		};
+		98C3043A1B5DBAB000B4D5ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98C3043B1B5DBAB000B4D5ED /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98C304201B5DBAB000B4D5ED /* HetalAssign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98C304401B5DBAB000B4D5ED /* Build configuration list for PBXNativeTarget "HetalAssign" */;
+			buildPhases = (
+				98C3041D1B5DBAB000B4D5ED /* Sources */,
+				98C3041E1B5DBAB000B4D5ED /* Frameworks */,
+				98C3041F1B5DBAB000B4D5ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HetalAssign;
+			productName = HetalAssign;
+			productReference = 98C304211B5DBAB000B4D5ED /* HetalAssign.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98C304351B5DBAB000B4D5ED /* HetalAssignTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98C304431B5DBAB000B4D5ED /* Build configuration list for PBXNativeTarget "HetalAssignTests" */;
+			buildPhases = (
+				98C304321B5DBAB000B4D5ED /* Sources */,
+				98C304331B5DBAB000B4D5ED /* Frameworks */,
+				98C304341B5DBAB000B4D5ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98C304381B5DBAB000B4D5ED /* PBXTargetDependency */,
+			);
+			name = HetalAssignTests;
+			productName = HetalAssignTests;
+			productReference = 98C304361B5DBAB000B4D5ED /* HetalAssignTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98C304191B5DBAB000B4D5ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Hetal Patel";
+				TargetAttributes = {
+					98C304201B5DBAB000B4D5ED = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					98C304351B5DBAB000B4D5ED = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 98C304201B5DBAB000B4D5ED;
+					};
+				};
+			};
+			buildConfigurationList = 98C3041C1B5DBAB000B4D5ED /* Build configuration list for PBXProject "HetalAssign" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98C304181B5DBAB000B4D5ED;
+			productRefGroup = 98C304221B5DBAB000B4D5ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98C304201B5DBAB000B4D5ED /* HetalAssign */,
+				98C304351B5DBAB000B4D5ED /* HetalAssignTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98C3041F1B5DBAB000B4D5ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98C3042C1B5DBAB000B4D5ED /* Main.storyboard in Resources */,
+				98C304311B5DBAB000B4D5ED /* LaunchScreen.xib in Resources */,
+				98C3042E1B5DBAB000B4D5ED /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98C304341B5DBAB000B4D5ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98C3041D1B5DBAB000B4D5ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98C304291B5DBAB000B4D5ED /* ViewController.swift in Sources */,
+				98C304271B5DBAB000B4D5ED /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98C304321B5DBAB000B4D5ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98C3043D1B5DBAB000B4D5ED /* HetalAssignTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98C304381B5DBAB000B4D5ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98C304201B5DBAB000B4D5ED /* HetalAssign */;
+			targetProxy = 98C304371B5DBAB000B4D5ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98C3042A1B5DBAB000B4D5ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98C3042B1B5DBAB000B4D5ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		98C3042F1B5DBAB000B4D5ED /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98C304301B5DBAB000B4D5ED /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98C3043E1B5DBAB000B4D5ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98C3043F1B5DBAB000B4D5ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98C304411B5DBAB000B4D5ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HetalAssign/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		98C304421B5DBAB000B4D5ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HetalAssign/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		98C304441B5DBAB000B4D5ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HetalAssignTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HetalAssign.app/HetalAssign";
+			};
+			name = Debug;
+		};
+		98C304451B5DBAB000B4D5ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HetalAssignTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HetalAssign.app/HetalAssign";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98C3041C1B5DBAB000B4D5ED /* Build configuration list for PBXProject "HetalAssign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98C3043E1B5DBAB000B4D5ED /* Debug */,
+				98C3043F1B5DBAB000B4D5ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98C304401B5DBAB000B4D5ED /* Build configuration list for PBXNativeTarget "HetalAssign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98C304411B5DBAB000B4D5ED /* Debug */,
+				98C304421B5DBAB000B4D5ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		98C304431B5DBAB000B4D5ED /* Build configuration list for PBXNativeTarget "HetalAssignTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98C304441B5DBAB000B4D5ED /* Debug */,
+				98C304451B5DBAB000B4D5ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98C304191B5DBAB000B4D5ED /* Project object */;
+}
